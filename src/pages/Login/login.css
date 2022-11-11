@@ -1,0 +1,28 @@
+.loginContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+}
+
+.form button{
+  height: 36px;
+  border-radius: 4px;
+  background-color: #36ff;
+  border: 0;
+  font-size: 18px;
+  color: #fff;
+  transition: transform 0.4s;
+}
+.form button:hover{
+  transform: scale(1.02);
+}
